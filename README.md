@@ -4,9 +4,9 @@ I am a Systems Analyst at Leroy Merlin Russia. I love interacting with people an
 
 ```mermaid
 classDiagram
-      Animal <|-- Duck
-      Animal <|-- Fish
-      Animal <|-- Zebra
+      Animal -- Duck
+      Animal -- Fish
+      Animal -- Zebra
       Animal : +int age
       Animal : +String gender
       Animal: +isMammal()
