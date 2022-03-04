@@ -4,18 +4,7 @@ I am a Systems Analyst at Leroy Merlin Russia. I love interacting with people an
 
 ```mermaid
 classDiagram
-      Animal -- Duck
-      Animal -- Fish
-      Animal -- Zebra
-      Animal : +int age
-      Animal : +String gender
-      class Duck{
-          +String beakColor
-      }
-      class Fish{
-          -int sizeInFeet
-      }
-      class Zebra{
-          +bool is_wild
-      }
+      attributes -- unit_of_measures
+      attributes -- values_entity
+      attributes -- models
 ```
